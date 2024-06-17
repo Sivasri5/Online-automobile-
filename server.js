@@ -189,8 +189,8 @@ const upload = multer({ storage: storage });
 
 // Add car route
 app.get('/addcar', (req, res) => {
-  console.log('Serving add car form');
-  res.sendFile(path.join(__dirname, 'addform.html'));
+ console.log('Serving add car form');
+ res.sendFile(path.join(__dirname, 'addform.html'));
 });
 
 app.post('/addcar', upload.single('image'), (req, res) => {
@@ -275,7 +275,7 @@ function sendEmail(toEmail) {
     from: 'tamilarasip.22cse@kongu.edu',
     to: toEmail,
     subject: 'Thank you for your submission',
-    text: 'Your information has been successfully submitted. Thank you for your interest!'
+    text: 'Your booking has been confirmed!Visit the showroom in your location'
   };
 
   console.log('Sending email to:', toEmail);
