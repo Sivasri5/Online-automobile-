@@ -1,7 +1,8 @@
 # Online Automobile
 
 # Overview
-Online Automobile is a web application that provides a platform for users to browse and manage automobiles. It features a user-friendly interface built with HTML, CSS, and Bootstrap, and is powered by a Node.js backend with MySQL database for data management.
+Online Automobile is a web application that provides a platform for users to browse and manage automobiles. 
+It features a user-friendly interface built with HTML, CSS, and Bootstrap, and is powered by a Node.js backend with MySQL database for data management.
 
 # Features
 User Interface: Designed with HTML, CSS, and Bootstrap for a responsive and modern look.
